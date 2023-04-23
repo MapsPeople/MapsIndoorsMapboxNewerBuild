@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-MapsIndoorsMapboxNewerBuild/Pods-MapsIndoorsMapboxNewerBuild-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MapboxDirections/MapboxDirections.framework
+${BUILT_PRODUCTS_DIR}/MapboxMaps/MapboxMaps.framework
+${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework
+${BUILT_PRODUCTS_DIR}/Turf/Turf.framework
+${BUILT_PRODUCTS_DIR}/ValueAnimator/ValueAnimator.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MapboxCommon/MapboxCommon.framework/MapboxCommon
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MapboxCoreMaps/MapboxCoreMaps.framework/MapboxCoreMaps
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework/MapboxMobileEvents
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MapsIndoors/MapsIndoors.framework/MapsIndoors
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MapsIndoorsCore/MapsIndoorsCore.framework/MapsIndoorsCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MapsIndoorsMapbox/MapsIndoorsMapbox.framework/MapsIndoorsMapbox

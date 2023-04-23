@@ -1,0 +1,65 @@
+PODS:
+  - MapboxCommon (23.4.0)
+  - MapboxCoreMaps (10.12.2):
+    - MapboxCommon (~> 23.4)
+  - MapboxDirections (2.10.0):
+    - Polyline (~> 5.0)
+    - Turf (~> 2.6.1)
+  - MapboxMaps (10.12.2):
+    - MapboxCommon (= 23.4.0)
+    - MapboxCoreMaps (= 10.12.2)
+    - MapboxMobileEvents (= 1.0.10)
+    - Turf (~> 2.0)
+  - MapboxMobileEvents (1.0.10)
+  - MapsIndoors (4.0.3)
+  - MapsIndoorsCore (4.0.3):
+    - MapsIndoors (= 4.0.3)
+  - MapsIndoorsMapbox (4.0.3):
+    - MapboxDirections (= 2.10.0)
+    - MapboxMaps (= 10.12.2)
+    - MapsIndoorsCore (= 4.0.3)
+    - ValueAnimator (= 0.6.8)
+  - Polyline (5.1.0)
+  - Turf (2.6.1)
+  - ValueAnimator (0.6.8)
+
+DEPENDENCIES:
+  - MapsIndoors (from `./`)
+  - MapsIndoorsCore (from `./`)
+  - MapsIndoorsMapbox (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxDirections
+    - MapboxMaps
+    - MapboxMobileEvents
+    - Polyline
+    - Turf
+    - ValueAnimator
+
+EXTERNAL SOURCES:
+  MapsIndoors:
+    :path: "./"
+  MapsIndoorsCore:
+    :path: "./"
+  MapsIndoorsMapbox:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  MapboxCommon: 2945d39158111455f353524f3c2ad356bd8d546a
+  MapboxCoreMaps: 8f355514ac5b573967badd9cf8e482561d6e8e2d
+  MapboxDirections: a620d78a54312c392323ba211df8ae7dd9a28ab4
+  MapboxMaps: 9e0873d7f8bddf5751791da7be2560b4157f3c95
+  MapboxMobileEvents: de50b3a4de180dd129c326e09cd12c8adaaa46d6
+  MapsIndoors: 9b84de8fb18a13b04e31a6789ec3ef5a770fe82c
+  MapsIndoorsCore: 6514c42ecb4aebf8397119ef73429c9f6254e7ef
+  MapsIndoorsMapbox: bec4cba2212023d70145a0224c4585f54ec45f14
+  Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
+  Turf: 469ce2c3d22e5e8e4818d5a3b254699a5c89efa4
+  ValueAnimator: b9ed721f3a0fc682ec857fd70dc933b28adb7522
+
+PODFILE CHECKSUM: afb3396cc1bacd8396dd7465bd04e268580bd8b4
+
+COCOAPODS: 1.12.1
