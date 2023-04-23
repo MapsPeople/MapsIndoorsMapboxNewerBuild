@@ -5,7 +5,7 @@ import MapsIndoorsCore
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    static let mApiKey = "qaamuse" // MapsIndoors Test API Key
+    static let mApiKey = [YOUR_MAPSINDOORS_API_KEY] // MapsIndoors Test API Key
     static let mapBoxApiKey = ProcessInfo.processInfo.environment["MAPBOX_API_KEY"] ?? [YOUR_MAPBOX_KEY]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
